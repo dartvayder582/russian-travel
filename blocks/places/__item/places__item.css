@@ -1,0 +1,21 @@
+.places__item {
+  display: grid;
+  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  row-gap: 48px;
+  column-gap: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__item {
+    column-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__item {
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+}
