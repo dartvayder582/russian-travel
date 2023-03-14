@@ -1,7 +1,7 @@
 <img src="./images/readme-header.svg" width="300">
 
 ________
-# [Путешествия по России](https://practicum.yandex.ru/)
+# [Путешествия по России](https://dartvayder582.github.io/russian-travel/)
 Проект о том, как провести отпуск в родной стране.
 Язык контента: **русский**
 ________
