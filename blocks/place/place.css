@@ -1,4 +1,4 @@
-.places__item {
+.place {
   display: grid;
   grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
   row-gap: 48px;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .places__item {
+  .place {
     column-gap: 30px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places__item {
+  .place {
     margin-left: 0;
     margin-right: 0;
     grid-template-columns: 1fr;

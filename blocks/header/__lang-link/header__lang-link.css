@@ -3,13 +3,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  text-align: right;
-  display: flex;
-  gap: 10px;
-}
-
-.header__lang-link .link-style:first-of-type {
-  text-decoration-line: underline;
 }
 
 @media screen and (max-width: 424px) {
